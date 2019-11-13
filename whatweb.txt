@@ -1,0 +1,113 @@
+WhatWeb report for [1m[34mhttp://sitiodepruebas.org[0m
+Status    : 301 Moved Permanently
+Title     : [1m[33m301 Moved Permanently[0m
+IP        : 165.22.34.38
+Country   : [1m[31mUNITED STATES, US[0m
+
+Summary   : [1m[37mRedirectLocation[0m[[37mhttps://sitiodepruebas.org/[0m], [1m[37mApache[0m[[1m[32m2.4.29[0m], [1m[37mHTTPServer[0m[[1m[31mUbuntu Linux[0m][[1m[36mApache/2.4.29 (Ubuntu)[0m]
+
+Detected Plugins:
+[ [1m[37mApache[0m ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : [1m[32m2.4.29[0m (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ [1m[37mHTTPServer[0m ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : [1m[31mUbuntu Linux[0m
+	String       : [1m[36mApache/2.4.29 (Ubuntu)[0m (from server string)
+
+[ [1m[37mRedirectLocation[0m ]
+	HTTP Server string location. used with http-status 301 and 
+	302 
+
+	String       : [1m[36mhttps://sitiodepruebas.org/[0m (from location)
+
+HTTP Headers:
+	HTTP/1.1 301 Moved Permanently
+	Date: Wed, 13 Nov 2019 01:21:24 GMT
+	Server: Apache/2.4.29 (Ubuntu)
+	Location: https://sitiodepruebas.org/
+	Content-Length: 319
+	Connection: close
+	Content-Type: text/html; charset=iso-8859-1
+	
+WhatWeb report for [1m[34mhttps://sitiodepruebas.org/[0m
+Status    : 200 OK
+Title     : [1m[33mplantillas web[0m
+IP        : 165.22.34.38
+Country   : [1m[31mUNITED STATES, US[0m
+
+Summary   : [1m[37mApache[0m[[1m[32m2.4.29[0m], [1m[37mJQuery[0m[[1m[32m2.1.3[0m], [1m[37mHTTPServer[0m[[1m[31mUbuntu Linux[0m][[1m[36mApache/2.4.29 (Ubuntu)[0m], [1m[37mScript[0m[[37mtext/javascript[0m], [1m[37mX-UA-Compatible[0m[[37mIE=edge[0m], [1m[37mHTML5[0m, [1m[37mLightbox[0m
+
+Detected Plugins:
+[ [1m[37mApache[0m ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : [1m[32m2.4.29[0m (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ [1m[37mHTML5[0m ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ [1m[37mHTTPServer[0m ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : [1m[31mUbuntu Linux[0m
+	String       : [1m[36mApache/2.4.29 (Ubuntu)[0m (from server string)
+
+[ [1m[37mJQuery[0m ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Version      : [1m[32m2.1.3[0m
+	Website     : http://jquery.com/
+
+[ [1m[37mLightbox[0m ]
+	Javascript for nice image popups 
+
+
+[ [1m[37mScript[0m ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : [1m[36mtext/javascript[0m
+
+[ [1m[37mX-UA-Compatible[0m ]
+	This plugin retrieves the X-UA-Compatible value from the 
+	HTTP header and meta http-equiv tag. - More Info: 
+	http://msdn.microsoft.com/en-us/library/cc817574.aspx 
+
+	String       : [1m[36mIE=edge[0m
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Wed, 13 Nov 2019 01:21:25 GMT
+	Server: Apache/2.4.29 (Ubuntu)
+	Last-Modified: Thu, 15 Aug 2019 20:21:44 GMT
+	ETag: "3514-5902d9f4f2569-gzip"
+	Accept-Ranges: bytes
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	Content-Length: 3161
+	Connection: close
+	Content-Type: text/html
+	
