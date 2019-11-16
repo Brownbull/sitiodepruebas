@@ -1,0 +1,58 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-11-15 18:39 CST
+Nmap scan report for 165.22.34.38
+Host is up (0.051s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.0: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA (dh 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.1: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA (dh 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA (dh 2048) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 18.79 seconds
